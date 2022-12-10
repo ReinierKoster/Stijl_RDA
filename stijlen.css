@@ -1,0 +1,133 @@
+:root {
+  --primary-color: #969696;
+  --bs-body-bg: #AEB5BD;
+  --rda-navbackground: #969696;
+  --rda-widgetsbackground: #353F4E;
+}
+
+/* Navigation bar */
+.rda-navbar {
+  background-color: var(--rda-navbackground)!important;
+}
+
+.nav-link{
+  color: var(--rda-widgetsbackground)!important;
+  font-size:1rem;
+  font-weight:800;
+  text-transform: uppercase;
+}
+
+
+/* Fonts and text etc. */
+html {
+  text-align: left;
+}
+.right {
+  text-align: right!important;
+}
+
+.h1{
+  font-size: 1.5rem;
+  border: 2px solid;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  margin-top: 25px;
+  margin-left: -10px;
+  margin-right: -10px;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+.h2{
+  font-size: 1rem;
+  border: 2px solid;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  margin-top: 25px;
+  margin-left: -10px;
+  margin-right: -10px;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+/* Widgets */
+.ui-widget-content {
+  border: 1px solid var(--rda-widgetsbackground)!important;
+  background-color:var(--rda-widgetsbackground)!important;
+  color:white!important
+  border-radius:4px
+}
+
+.ui-spinner-input {
+  border: 1px solid var(--rda-widgetsbackground)!important;
+  background-color:var(--rda-widgetsbackground)!important;
+  color:white!important
+  border-radius:4px
+}
+
+.ui-selectonemenu .ui-selectonemenu-trigger .ui-icon {
+  border: 1px solid var(--rda-widgetsbackground)!important;  
+  background-color:var(--rda-widgetsbackground)!important;
+  color:white!important;
+  border-radius:4px
+}
+
+.ui-button {
+  border: 1px solid var(--rda-widgetsbackground)!important;
+  background-color: var(--rda-widgetsbackground)!important;
+  color:white!important;
+  border-radius:4px
+}
+
+.ui-fileupload {
+  border: 1px solid;
+  padding: 1rem;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  margin-left: -5px;
+  background: var(--rda-navbackground);
+  border-color: var(--rda-widgetsbackground);
+}
+
+
+/* Tables Results tab*/
+.ui-datatable thead th .ui-column-title {
+  font-weight: 600;
+  vertical-align: middle;
+}
+
+.ui-datatable thead th {
+  background: var(--bs-body-bg);
+  color: var(--rda-widgetsbackground)!important;
+  padding: 1rem 1rem;
+  border: 1px white;
+  text-align: left;
+  text-transform: uppercase;
+  box-sizing: content-box;
+}
+
+.col-lg-5 {
+  flex: 0 0 auto;
+  width: 41.66666667%;
+  color: var(--rda-widgetsbackground);
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.card {
+  background-color: var(--bs-body-bg);
+}
+
+label {
+    display: inline-block;
+    color: var(--rda-widgetsbackground);
+    text-transform: capitalize;
+}
+
+
