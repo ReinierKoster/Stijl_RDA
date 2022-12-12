@@ -1,12 +1,12 @@
 :root {
   --primary-color: #969696;
   --bs-body-bg: #AEB5BD;
-  --rda-navbackground: #dad6d6;
+  --rda-navbackground: #7F7F7F;
   --rda-widgetsbackground: #353F4E;
 }
 
 /* Navigation bar */
-.rda-navbar {
+.bg-light {
   background-color: var(--rda-navbackground);
 }
 
