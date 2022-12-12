@@ -1,8 +1,8 @@
 :root {
   --primary-color: #969696;
   --bs-body-bg: #AEB5BD;
-  --rda-navbackground: #969696;
-  --rda-widgetsbackground: #353F4re;
+  --rda-navbackground: #dad6d6;
+  --rda-widgetsbackground: #353F4E;
 }
 
 /* Navigation bar */
