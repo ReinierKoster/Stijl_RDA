@@ -2,16 +2,16 @@
   --primary-color: #969696;
   --bs-body-bg: #AEB5BD;
   --rda-navbackground: #969696;
-  --rda-widgetsbackground: red;
+  --rda-widgetsbackground: #353F4re;
 }
 
 /* Navigation bar */
 .rda-navbar {
-  background-color: var(--rda-navbackground)!important;
+  background-color: var(--rda-navbackground);
 }
 
 .nav-link{
-  color: var(--rda-widgetsbackground)!important;
+  color: var(--rda-widgetsbackground);
   font-size:1rem;
   font-weight:800;
   text-transform: uppercase;
@@ -22,11 +22,8 @@
 html {
   text-align: left;
 }
-.right {
-  text-align: right!important;
-}
 
-.h1{
+h1{
   font-size: 1.5rem;
   border: 2px solid;
   border-top: none;
@@ -41,7 +38,7 @@ html {
   margin-bottom: 15px;
 }
 
-.h2{
+h2{
   font-size: 1rem;
   border: 2px solid;
   border-top: none;
@@ -56,32 +53,38 @@ html {
   margin-bottom: 15px;
 }
 
+p{
+  font-size: 1rem;
+  margin-left: -10px;
+  margin-right: -10px;
+}
+
 /* Widgets */
 .ui-widget-content {
-  border: 1px solid var(--rda-widgetsbackground)!important;
-  background-color:var(--rda-widgetsbackground)!important;
-  color:white!important
+  border: 1px solid var(--rda-widgetsbackground);
+  background-color:var(--rda-widgetsbackground);
+  color:white;
   border-radius:4px
 }
 
 .ui-spinner-input {
-  border: 1px solid var(--rda-widgetsbackground)!important;
-  background-color:var(--rda-widgetsbackground)!important;
-  color:white!important
+  border: 1px solid var(--rda-widgetsbackground);
+  background-color:var(--rda-widgetsbackground);
+  color:white;
   border-radius:4px
 }
 
 .ui-selectonemenu .ui-selectonemenu-trigger .ui-icon {
-  border: 1px solid var(--rda-widgetsbackground)!important;  
-  background-color:var(--rda-widgetsbackground)!important;
-  color:white!important;
+  border: 1px solid var(--rda-widgetsbackground);  
+  background-color:var(--rda-widgetsbackground);
+  color:white;
   border-radius:4px
 }
 
 .ui-button {
-  border: 1px solid var(--rda-widgetsbackground)!important;
-  background-color: var(--rda-widgetsbackground)!important;
-  color:white!important;
+  border: 1px solid var(--rda-widgetsbackground);
+  background-color: var(--rda-widgetsbackground);
+  color:white;
   border-radius:4px
 }
 
@@ -104,7 +107,7 @@ html {
 
 .ui-datatable thead th {
   background: var(--bs-body-bg);
-  color: var(--rda-widgetsbackground)!important;
+  color: var(--rda-widgetsbackground);
   padding: 1rem 1rem;
   border: 1px white;
   text-align: left;
