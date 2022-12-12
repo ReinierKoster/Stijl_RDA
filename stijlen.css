@@ -6,7 +6,7 @@
 }
 
 /* Navigation bar */
-.bg-light {
+navbar navbar-expand-sm bg-light rda-navbar {
   background-color: var(--rda-navbackground);
 }
 
