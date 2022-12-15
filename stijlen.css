@@ -1,12 +1,12 @@
 :root {
   --primary-color: #969696;
-  --bs-body-bg: #AEB5BD;
+  --bs-body-bg: #EAEAEA;
   --rda-navbackground: #969696;
   --rda-widgetsbackground: #353F4E;
 }
 
 /* Navigation bar */
-navbar navbar-expand-sm bg-light rda-navbar {
+.navbar {
   background-color: var(--rda-navbackground);
 }
 
@@ -81,7 +81,7 @@ p{
   border-radius:4px
 }
 
-.ui-button {
+body .ui-button {
   border: 1px solid var(--rda-widgetsbackground);
   background-color: var(--rda-widgetsbackground);
   color:white;
