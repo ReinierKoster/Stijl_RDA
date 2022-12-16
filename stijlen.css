@@ -127,9 +127,9 @@ button, input, optgroup, select, textarea {
 
 
 /* Hover*/
-body .ui-state-default:hover {
+body.ui-state-hover, body .ui-button.ui-state-hover, body .ui-inputfield.ui-state-hover, body .ui-selectonemenu:hover{
   background-color: var(--rda-navbackground);
-  border: 1px solid var(--rda-widgetsbackground);
+  border-color: var(--rda-widgetsbackground);
   border-radius:4px;
   color:white
 }
