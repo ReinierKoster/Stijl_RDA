@@ -7,7 +7,7 @@
 
 /* Navigation bar */
 .navbar {
-  background-color: var(--rda-navbackground);
+  background-color: var(--rda-navbackground)!important;
 }
 
 .nav-link{
@@ -64,28 +64,41 @@ p{
   border: 1px solid var(--rda-widgetsbackground);
   background-color:var(--rda-widgetsbackground);
   color:white;
-  border-radius:4px
+  border-radius:4px;
 }
 
-.ui-spinner-input {
+body .ui-inputfield {
   border: 1px solid var(--rda-widgetsbackground);
   background-color:var(--rda-widgetsbackground);
   color:white;
-  border-radius:4px
+  border-radius:4px;
 }
 
-.ui-selectonemenu .ui-selectonemenu-trigger .ui-icon {
+body .ui-selectonemenu {
   border: 1px solid var(--rda-widgetsbackground);  
   background-color:var(--rda-widgetsbackground);
   color:white;
-  border-radius:4px
+  border-radius:4px;
 }
 
 body .ui-button {
   border: 1px solid var(--rda-widgetsbackground);
   background-color: var(--rda-widgetsbackground);
   color:white;
-  border-radius:4px
+  border-radius:4px;
+}
+
+body .ui-button.ui-state-hover {
+  border: 1px solid var(--rda-navbackground);
+  background-color: var(--rda-navbackground);
+  color:black;
+}
+
+body .ui-icon {
+  border: 1px solid var(--rda-widgetsbackground);
+  background-color: var(--rda-widgetsbackground);
+  color:white;
+  border-radius:4px;
 }
 
 .ui-fileupload {
