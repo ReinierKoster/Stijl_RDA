@@ -98,7 +98,7 @@ body .ui-button {
   border-radius:4px;
 }
 
-body .ui-icon {
+body .ui-icon, body .ui-icon-triangle-1-s {
   border: 1px solid var(--rda-widgetsbackground);
   background-color: var(--rda-widgetsbackground);
   color:white;
