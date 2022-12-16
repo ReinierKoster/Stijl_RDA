@@ -18,6 +18,12 @@
 }
 
 
+.nav-link:hoover{
+  color:white;
+}
+
+
+
 /* Fonts and text etc. */
 html {
   text-align: left;
@@ -78,6 +84,13 @@ body .ui-selectonemenu {
   color:white;
   border-radius:4px;
 }
+
+body .ui-selectonemenu .ui-state-hover{
+  border: 1px solid var(--rda-navbackground);
+  background-color: var(--rda-navbackground);
+  color:black;
+}
+
 
 body .ui-selectonemenu .ui-selectonemenu-trigger .ui-icon{
   color:white;
@@ -162,10 +175,7 @@ label {
 
 /* Uitlijning*/
 
-.row>*{
-  margin-left:0px;
+.row {
+  margin-left: calc(-0.5 * var(--bs-gutter-x));
 }
 
-.row {
-  margin-left:0;
-}
