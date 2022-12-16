@@ -134,6 +134,13 @@ body.ui-state-hover, body .ui-button.ui-state-hover, body .ui-inputfield.ui-stat
   color:white
 }
 
+body.ui-state-focus, body .ui-button.ui-state-focus, body .ui-inputfield.ui-state-focus, body .ui-selectonemenu:focus{
+  background-color: var(--rda-widgetbackground);
+  border-color: var(--rda-navbackground);
+  border-radius:4px;
+  color:white
+}
+
 li:hover a {
   background-color: var(--rda-navbackground);
   color:var(--rda-navbackground);
