@@ -86,7 +86,8 @@ body .ui-selectonemenu {
   border-radius:4px;
 }
 
-body .ui-selectonemenu .ui-selectonemenu-trigger .ui-icon{
+body .ui-selectonemenu .ui-selectonemenu-trigger .ui-icon, 
+body .ui-selectonemenu-panel .ui-selectonemenu-filter-container .ui-icon{
   color:white;
 }
 
@@ -113,7 +114,6 @@ body .ui-fileupload {
   border-color: var(--rda-widgetsbackground);
 }
 
-body .ui-selectonemenu-panel .ui-selectonemenu-items .ui-selectonemenu-item.ui-selectonemenu-row:first-child, 
 body .ui-selectonemenu-panel .ui-selectonemenu-items .ui-selectonemenu-item.ui-state-highlight{
     border: 1px solid var(--rda-widgetsbackground);
     background-color:var(--rda-widgetsbackground);
@@ -173,7 +173,17 @@ label {
 /* Test for with ID*/
 
 #content {
-  margin-left:calc(-0.5 * var(--bs-gutter-x));
+  --bs-gutter-x: 1.5rem;
+  margin-left:calc(0.5 * var(--bs-gutter-x));
+}
+
+#uploadForm:messages {
+  --bs-gutter-x: 1.5rem;
+  margin-left:calc(0.5 * var(--bs-gutter-x));
+}
+#text {
+  --bs-gutter-x: 1.5rem;
+  margin-left:calc(0.5 * var(--bs-gutter-x));
 }
 
 
