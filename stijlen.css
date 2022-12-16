@@ -113,8 +113,19 @@ body .ui-fileupload {
   border-color: var(--rda-widgetsbackground);
 }
 
+body .ui-selectonemenu-panel .ui-selectonemenu-items .ui-selectonemenu-item.ui-selectonemenu-row:first-child, 
+body .ui-selectonemenu-panel .ui-selectonemenu-items .ui-selectonemenu-item.ui-state-highlight{
+    border: 1px solid var(--rda-widgetsbackground);
+    background-color:var(--rda-widgetsbackground);
+    color:white;
+    border-radius:4px;
+}
 
-body body .ui-widget-content:hover, body .ui-inputfield:hover, body .ui-selectonemenu:hover, body .ui-button:hover, body .ui-icon:hover, body .ui-fileupload:hover{
+
+
+body body .ui-widget-content:hover, body .ui-inputfield:hover, body .ui-selectonemenu:hover, body .ui-button:hover, body .ui-icon:hover, body .ui-fileupload:hover,
+body .ui-selectonemenu-panel .ui-selectonemenu-items .ui-selectonemenu-item.ui-selectonemenu-row:hover, 
+body .ui-selectonemenu-panel .ui-selectonemenu-items .ui-selectonemenu-item.ui-state-highlight:hover{
   background-color: var(--rda-navbackground);
   border-color: black;
   color:white
