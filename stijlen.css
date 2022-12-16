@@ -30,7 +30,6 @@ h1{
   border-left: none;
   border-right: none;
   padding-bottom: 5px;
-  padding-left: 10px;
   margin-top: 25px;
   text-transform: uppercase;
   margin-bottom: 15px;
@@ -43,7 +42,6 @@ h2{
   border-left: none;
   border-right: none;
   padding-bottom: 5px;
-  padding-left: 10px;
   margin-top: 25px;
   text-transform: uppercase;
   margin-bottom: 15px;
@@ -136,8 +134,10 @@ body .ui-icon {
   font-weight: 600;
 }
 
+/* This is the upload form div*/
 .card {
   background-color: var(--bs-body-bg);
+  border: 0px;
 }
 
 label {
@@ -146,4 +146,10 @@ label {
     text-transform: capitalize;
 }
 
+
+/* Test for with ID*/
+
+#uploadForm:messages {
+  margin-left:10px;
+}
 
