@@ -189,6 +189,12 @@ label {
 
 
 /* Uitlijning*/
+
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl{
+  padding-right: 0;
+  padding-left: 0;
+}
+
 #content {
   --bs-gutter-x: 1.5rem;
   margin-left:calc(0.5 * var(--bs-gutter-x));
