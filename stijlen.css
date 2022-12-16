@@ -112,7 +112,6 @@ body .ui-fileupload {
   border-top-right-radius: 4px;
   background-color: var(--rda-widgetsbackground);
   border-color: var(--rda-widgetsbackground);
-  margin-left: calc(0.5 * var(--bs-gutter-x));
 }
 
 body .ui-selectonemenu-panel .ui-selectonemenu-items .ui-selectonemenu-item.ui-state-highlight{
@@ -141,7 +140,8 @@ button, input, optgroup, select, textarea {
 body body .ui-widget-content:hover, body .ui-inputfield:hover, body .ui-selectonemenu:hover, body .ui-button:hover, body .ui-icon:hover, body .ui-fileupload:hover,
 body .ui-selectonemenu-panel:hover, body .ui-selectonemenu-items:hover body .ui-selectonemenu-item.ui-selectonemenu-row:hover, 
 body .ui-selectonemenu-item.ui-state-highlight:hover, body .ui-selectonemenu-label:hover, body .ui-corner-all:hover,
-body .ui-inputfield.ui-state-hover, body .ui-button.ui-state-hover{
+body .ui-inputfield.ui-state-hover, body .ui-button.ui-state-hover, body .ui-selectonemenu-filter,
+body .ui-inputfield body .ui-inputtext body .ui-widget body .ui-state-default body.ui-corner-all body.ui-state-hover{
   background-color: var(--rda-navbackground);
   border: 1px solid rgba(0, 0, 0, 0.08);
   color:white
