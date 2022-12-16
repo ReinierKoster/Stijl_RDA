@@ -122,9 +122,17 @@ body .ui-selectonemenu-panel .ui-selectonemenu-items .ui-selectonemenu-item.ui-s
 }
 
 body .ui-selectonemenu-panel .ui-selectonemenu-items .ui-selectonemenu-item{
-  background: white;
+  background-color: white;
   color: var(--rda-widgetsbackground);
-  border: 1px solid black;
+  border:black;
+}
+
+button, input, optgroup, select, textarea {
+  border: 1px solid var(--rda-widgetsbackground);
+  background-color: var(--rda-widgetsbackground);
+  color:white;
+  border-radius:4px;
+  text-transform: uppercase;
 }
 
 
@@ -132,7 +140,7 @@ body .ui-selectonemenu-panel .ui-selectonemenu-items .ui-selectonemenu-item{
 body body .ui-widget-content:hover, body .ui-inputfield:hover, body .ui-selectonemenu:hover, body .ui-button:hover, body .ui-icon:hover, body .ui-fileupload:hover,
 body .ui-selectonemenu-panel:hover, body .ui-selectonemenu-items:hover body .ui-selectonemenu-item.ui-selectonemenu-row:hover, 
 body .ui-selectonemenu-item.ui-state-highlight:hover, body .ui-selectonemenu-label:hover, body .ui-corner-all:hover,
-body .ui-inputfield.ui-state-hover {
+body .ui-inputfield.ui-state-hover, body .ui-button.ui-state-hover{
   background-color: var(--rda-navbackground);
   border-color: black;
   color:white
@@ -176,17 +184,13 @@ label {
 }
 
 
-/* Test for with ID*/
 
+/* Uitlijning*/
 #content {
   --bs-gutter-x: 1.5rem;
-  margin-left:calc(0.5 * var(--bs-gutter-x));
+  margin-left:calc(-0.5 * var(--bs-gutter-x));
 }
 
-#uploadForm:messages {
-  --bs-gutter-x: 1.5rem;
-  margin-left:calc(0.5 * var(--bs-gutter-x));
-}
 #text {
   --bs-gutter-x: 1.5rem;
   margin-left:calc(0.5 * var(--bs-gutter-x));
@@ -194,8 +198,7 @@ label {
 
 
 /* Uitlijning*/
-
-.row {
-  margin-left: calc(-0.5 * var(--bs-gutter-x));
+.row>*  {
+  padding-right: 0;
+  padding-left: 0;
 }
-
