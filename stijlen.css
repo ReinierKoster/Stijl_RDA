@@ -135,7 +135,7 @@ button, input, optgroup, select, textarea {
   background-color: var(--rda-widgetsbackground);
   color:white;
   border-radius:4px;
-  text-transform: uppercase;
+  text-transform: capitalize;;
 }
 
 
@@ -204,8 +204,6 @@ label {
 .row>*  {
   padding-right: 0;
   padding-left: 0;
-}
-
-.mt-1{
   margin-top: 0.25rem!important;
 }
+
