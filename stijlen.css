@@ -18,7 +18,7 @@
 }
 
 
-.nav-link:hoover{
+.nav-link:hover, .nav-item:hover{
   color:white;
 }
 
