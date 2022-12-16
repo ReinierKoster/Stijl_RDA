@@ -127,11 +127,7 @@ button, input, optgroup, select, textarea {
 
 
 /* Hover*/
-body body .ui-widget-content:hover, body .ui-inputfield:hover, body .ui-selectonemenu:hover, body .ui-button:hover, body .ui-icon:hover, body .ui-fileupload:hover,
-body .ui-selectonemenu-panel:hover, body .ui-selectonemenu-items:hover body .ui-selectonemenu-item.ui-selectonemenu-row:hover, 
-body .ui-selectonemenu-item.ui-state-highlight:hover, body .ui-selectonemenu-label:hover, body .ui-corner-all:hover,
-body .ui-inputfield.ui-state-hover, body .ui-button.ui-state-hover, body .ui-selectonemenu-filter,
-body .ui-inputfield body .ui-inputtext body .ui-widget body .ui-state-default body.ui-corner-all body.ui-state-hover{
+body .ui-state-default:hover {
   background-color: var(--rda-navbackground);
   border: 1px solid var(--rda-widgetsbackground);
   border-radius:4px;
