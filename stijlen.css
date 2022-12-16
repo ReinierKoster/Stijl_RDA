@@ -143,7 +143,7 @@ body .ui-selectonemenu-item.ui-state-highlight:hover, body .ui-selectonemenu-lab
 body .ui-inputfield.ui-state-hover, body .ui-button.ui-state-hover, body .ui-selectonemenu-filter,
 body .ui-inputfield body .ui-inputtext body .ui-widget body .ui-state-default body.ui-corner-all body.ui-state-hover{
   background-color: var(--rda-navbackground);
-  border: 1px solid rgba(0, 0, 0, 0.08);
+  border: 0px solid rgba(0, 0, 0, 0.08);
   color:white
 }
 
