@@ -121,6 +121,12 @@ body .ui-selectonemenu-panel .ui-selectonemenu-items .ui-selectonemenu-item.ui-s
     border-radius:4px;
 }
 
+body .ui-selectonemenu-panel .ui-selectonemenu-items .ui-selectonemenu-item{
+  background: white;
+  color: var(--rda-widgetsbackground);
+  border: 1px solid black;
+}
+
 
 
 body body .ui-widget-content:hover, body .ui-inputfield:hover, body .ui-selectonemenu:hover, body .ui-button:hover, body .ui-icon:hover, body .ui-fileupload:hover,
