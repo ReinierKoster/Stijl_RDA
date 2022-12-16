@@ -57,9 +57,6 @@ p{
   font-size: 1rem;
 }
 
-span {
-  margin-left:calc(-0.5 * var(--bs-gutter-x));
-}
 
 li:hover a {
   background-color: var(--rda-navbackground);
@@ -68,7 +65,7 @@ li:hover a {
 
 
 /* Widgets */
-.ui-widget-content {
+body .ui-widget-content {
   border: 1px solid var(--rda-widgetsbackground);
   background-color:var(--rda-widgetsbackground);
   color:white;
@@ -89,30 +86,15 @@ body .ui-selectonemenu {
   border-radius:4px;
 }
 
-body .ui-selectonemenu .ui-state-hover{
-  border: 1px solid var(--rda-navbackground);
-  background-color: var(--rda-navbackground);
-  color:black;
-}
-
-
 body .ui-selectonemenu .ui-selectonemenu-trigger .ui-icon{
   color:white;
 }
-
 
 body .ui-button {
   border: 1px solid var(--rda-widgetsbackground);
   background-color: var(--rda-widgetsbackground);
   color:white;
   border-radius:4px;
-}
-
-
-body .ui-button.ui-state-hover {
-  border: 1px solid var(--rda-navbackground);
-  background-color: var(--rda-navbackground);
-  color:black;
 }
 
 body .ui-icon {
@@ -122,14 +104,20 @@ body .ui-icon {
   border-radius:4px;
 }
 
-.ui-fileupload {
+body .ui-fileupload {
   border: 1px solid;
   padding: 1rem;
   border-top-left-radius: 4px;
   border-top-right-radius: 4px;
-  margin-left: -5px;
-  background: var(--rda-navbackground);
+  background-color: var(--rda-widgetsbackground);
   border-color: var(--rda-widgetsbackground);
+}
+
+
+body body .ui-widget-content:hover, body .ui-inputfield:hover, body .ui-selectonemenu:hover, body .ui-button:hover, body .ui-icon:hover, body .ui-fileupload:hover{
+  background-color: var(--rda-navbackground);
+  border-color: black;
+  color:white
 }
 
 
@@ -172,8 +160,8 @@ label {
 
 /* Test for with ID*/
 
-#uploadForm:messages {
-  margin-left:10px;
+#content {
+  margin-left:calc(-0.5 * var(--bs-gutter-x));
 }
 
 
