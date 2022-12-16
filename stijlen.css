@@ -124,7 +124,7 @@ body .ui-selectonemenu-panel .ui-selectonemenu-items .ui-selectonemenu-item.ui-s
 body .ui-selectonemenu-panel .ui-selectonemenu-items .ui-selectonemenu-item{
   background-color: white;
   color: var(--rda-widgetsbackground);
-  border:black;
+  border: 1px solid rgba(0, 0, 0, 0.08);
 }
 
 button, input, optgroup, select, textarea {
@@ -142,7 +142,7 @@ body .ui-selectonemenu-panel:hover, body .ui-selectonemenu-items:hover body .ui-
 body .ui-selectonemenu-item.ui-state-highlight:hover, body .ui-selectonemenu-label:hover, body .ui-corner-all:hover,
 body .ui-inputfield.ui-state-hover, body .ui-button.ui-state-hover{
   background-color: var(--rda-navbackground);
-  border-color: black;
+  border: 1px solid rgba(0, 0, 0, 0.08);
   color:white
 }
 
