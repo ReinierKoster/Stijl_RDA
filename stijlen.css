@@ -124,8 +124,9 @@ body .ui-selectonemenu-panel .ui-selectonemenu-items .ui-selectonemenu-item.ui-s
 
 
 body body .ui-widget-content:hover, body .ui-inputfield:hover, body .ui-selectonemenu:hover, body .ui-button:hover, body .ui-icon:hover, body .ui-fileupload:hover,
-body .ui-selectonemenu-panel .ui-selectonemenu-items .ui-selectonemenu-item.ui-selectonemenu-row:hover, 
-body .ui-selectonemenu-panel .ui-selectonemenu-items .ui-selectonemenu-item.ui-state-highlight:hover{
+body .ui-selectonemenu-panel:hover, body .ui-selectonemenu-items:hover body .ui-selectonemenu-item.ui-selectonemenu-row:hover, 
+body .ui-selectonemenu-item.ui-state-highlight:hover, body .ui-selectonemenu-label:hover, body .ui-corner-all:hover,
+body .ui-inputfield.ui-state-hover {
   background-color: var(--rda-navbackground);
   border-color: black;
   color:white
