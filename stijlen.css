@@ -74,7 +74,7 @@ button, input, optgroup, select, textarea, .btn-primary, body .ui-selectonemenu-
 }
 
 button, input, optgroup, select, textarea{
-  padding: 0.5rem 1rem 0.5rem 1rem
+  padding: 0.5rem 0.5rem 0.5rem 0.5rem;
 }
 
 body .ui-selectonemenu .ui-selectonemenu-trigger .ui-icon{
