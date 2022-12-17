@@ -79,6 +79,12 @@ button, input, optgroup, select, textarea{
 
 body .ui-selectonemenu .ui-selectonemenu-trigger .ui-icon{
   color:white;
+
+}
+
+body .ui-spinner .ui-spinner-button.ui-button.ui-spinner-up .ui-icon-triangle-1-n
+body .ui-spinner .ui-spinner-button.ui-button.ui-spinner-up .ui-icon-triangle-1-s{
+  border: none;
 }
 
 
