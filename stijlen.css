@@ -125,20 +125,29 @@ button, input, optgroup, select, textarea {
   text-transform: capitalize;;
 }
 
+.btn-primary {
+  border: 1px solid var(--rda-widgetsbackground);
+  background-color:var(--rda-widgetsbackground);
+  color:white;
+  border-radius:4px;
+}
+
+
 
 /* Hover*/
-body.ui-state-hover, body .ui-button.ui-state-hover, body .ui-inputfield.ui-state-hover, body .ui-selectonemenu:hover{
+body.ui-state-hover, body .ui-button.ui-state-hover, body .ui-inputfield.ui-state-hover, body .ui-selectonemenu:hover, body .btn-primary:hover{
   background-color: var(--rda-navbackground);
   border-color: var(--rda-widgetsbackground);
   border-radius:4px;
   color:white
 }
 
-body.ui-state-focus, body .ui-button.ui-state-focus, body .ui-inputfield.ui-state-focus, body .ui-selectonemenu:focus{
+body.ui-state-focus, body .ui-button.ui-state-focus, body .ui-inputfield.ui-state-focus, body .ui-selectonemenu.ui-state-focus, body .btn-primary:focus{
   background-color: var(--rda-widgetbackground);
   border-color: var(--rda-navbackground);
   border-radius:4px;
-  color:white
+  color:white;
+  box-shadow: 0 0 0 0.2em white;
 }
 
 li:hover a {
