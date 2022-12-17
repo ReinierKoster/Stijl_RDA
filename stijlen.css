@@ -60,7 +60,7 @@ p, a{
 
 
 /* Widgets */
-body .ui-widget-content, body .ui-inputfield, body .ui-button, body .ui-selectonemenu, body .ui-selectonemenu-label,
+body .ui-inputfield, body .ui-button, body .ui-selectonemenu, body .ui-selectonemenu-label,
 body .ui-icon, body .ui-icon-triangle-1-s, body .ui-selectonemenu-items, body .ui-selectonemenu-item.ui-state-highlight,
 button, input, optgroup, select, textarea, .btn-primary, body .ui-selectonemenu-trigger  {
   border: 1px solid var(--rda-widgetsbackground);  
@@ -68,6 +68,11 @@ button, input, optgroup, select, textarea, .btn-primary, body .ui-selectonemenu-
   color:white;
   border-radius:4px;
   text-transform: capitalize;
+}
+
+body .ui-corner-all{
+  border:0;
+
 }
 
 body .ui-fileupload {
@@ -96,8 +101,7 @@ body .ui-selectonemenu-panel .ui-selectonemenu-items .ui-selectonemenu-item{
 
 
 /* Hover*/
-body.ui-state-hover, body .ui-button.ui-state-hover, body .ui-inputfield.ui-state-hover, body .ui-selectonemenu.ui-state-focus, body .btn-primary:hover,
-body .ui-corner-all:hover{
+body.ui-state-hover, body .ui-button.ui-state-hover, body .ui-inputfield.ui-state-hover, body .ui-selectonemenu.ui-state-focus, body .btn-primary:hover{
   background-color: var(--rda-navbackground);
   border-color: var(--rda-widgetsbackground);
   border-radius:4px;
@@ -188,15 +192,18 @@ body .ui-tabs.ui-tabs-top > .ui-tabs-nav{
   background: var(--bs-body-bg);
 }
 
+
 body .ui-tabs.ui-tabs-top > .ui-tabs-nav li.ui-tabs-header.ui-state-active, 
 body .ui-tabs .ui-tabs-nav li.ui-tabs-header.ui-state-active a{
   background: var(--bs-body-bg);
   color: var(--rda-widgetsbackground);
   border-color:var(--rda-widgetsbackground);
+  box-shadow: none;
 }
 
 body .ui-tabs.ui-tabs-top > .ui-tabs-nav li.ui-tabs-header.ui-state-hover, 
-body .ui-tabs .ui-tabs-nav li.ui-tabs-header.ui-state-hover a{
+body .ui-tabs .ui-tabs-nav li.ui-tabs-header.ui-state-hover a,
+body .ui-tabs.ui-tabs-top > .ui-tabs-nav li.ui-tabs-header{
   background: var(--bs-body-bg);
   color: var(--rda-widgetsbackground);
 }
