@@ -59,44 +59,14 @@ p, a{
 
 
 /* Widgets */
-body .ui-widget-content {
-  border: 1px solid var(--rda-widgetsbackground);
-  background-color:var(--rda-widgetsbackground);
-  color:white;
-  border-radius:4px;
-}
-
-body .ui-inputfield {
-  border: 1px solid var(--rda-widgetsbackground);
-  background-color:var(--rda-widgetsbackground);
-  color:white;
-  border-radius:4px;
-}
-
-body .ui-selectonemenu {
+body .ui-widget-content, body .ui-inputfield, body .ui-button, body .ui-selectonemenu, body .ui-selectonemenu-label,
+body .ui-icon, body .ui-icon-triangle-1-s, body .ui-selectonemenu-items, body .ui-selectonemenu-item.ui-state-highlight,
+button, input, optgroup, select, textarea, .btn-primary  {
   border: 1px solid var(--rda-widgetsbackground);  
   background-color:var(--rda-widgetsbackground);
   color:white;
   border-radius:4px;
-}
-
-body .ui-selectonemenu .ui-selectonemenu-trigger .ui-icon, 
-body .ui-selectonemenu-panel .ui-selectonemenu-filter-container .ui-icon{
-  color:white;
-}
-
-body .ui-button {
-  border: 1px solid var(--rda-widgetsbackground);
-  background-color: var(--rda-widgetsbackground);
-  color:white;
-  border-radius:4px;
-}
-
-body .ui-icon, body .ui-icon-triangle-1-s {
-  border: 1px solid var(--rda-widgetsbackground);
-  background-color: var(--rda-widgetsbackground);
-  color:white;
-  border-radius:4px;
+  text-transform: capitalize
 }
 
 body .ui-fileupload {
@@ -108,43 +78,34 @@ body .ui-fileupload {
   border-color: var(--rda-widgetsbackground);
 }
 
-body .ui-selectonemenu-panel .ui-selectonemenu-items .ui-selectonemenu-item.ui-state-highlight{
-    border: 1px solid var(--rda-widgetsbackground);
-    background-color:var(--rda-widgetsbackground);
-    color:white;
-    border-radius:4px;
-}
 
-body .ui-selectonemenu-panel .ui-selectonemenu-items .ui-selectonemenu-item{
+body .ui-selectonemenu-panel, body .ui-selectonemenu-item{
   background-color: white;
   color: var(--rda-widgetsbackground);
   border: 1px solid rgba(0, 0, 0, 0.08);
 }
 
-button, input, optgroup, select, textarea {
-  border: 1px solid var(--rda-widgetsbackground);
-  background-color: var(--rda-widgetsbackground);
-  color:white;
-  border-radius:4px;
-  text-transform: capitalize;
-}
-
-.btn-primary {
-  border: 1px solid var(--rda-widgetsbackground);
-  background-color:var(--rda-widgetsbackground);
-  color:white;
-  border-radius:4px;
-}
 
 
 
 /* Hover*/
-body.ui-state-hover, body .ui-button.ui-state-hover, body .ui-inputfield.ui-state-hover, body .ui-selectonemenu:hover, body .btn-primary:hover{
+body.ui-state-hover, body .ui-button.ui-state-hover, body .ui-inputfield.ui-state-hover, body .ui-selectonemenu.ui-state-focus, body .btn-primary:hover{
   background-color: var(--rda-navbackground);
   border-color: var(--rda-widgetsbackground);
   border-radius:4px;
   color:white;
+  box-shadow: 0 0 0 0.2em var(--rda-widgetsbackground);
 }
+
+li:hover a, .nav-link:hover, .nav-item:hover, .dropdown-toggle:hover{
+  color:white;
+  background-color: var(--rda-navbackground); 
+}
+
+
+
+
+/* Focus*/
 
 body.ui-state-focus, body .ui-button.ui-state-focus, body .ui-inputfield.ui-state-focus, body .ui-selectonemenu.ui-state-focus, body .btn-primary:focus{
   background-color: var(--rda-widgetbackground);
@@ -154,9 +115,8 @@ body.ui-state-focus, body .ui-button.ui-state-focus, body .ui-inputfield.ui-stat
   box-shadow: 0 0 0 0.2em var(--rda-navbackground);
 }
 
-
-li:hover a .nav-link:hover, .nav-item:focus, .dropdown-toggle:hover,.dropdown-toggle:focus{
-  color:white;
+li:focus a, .nav-link:focus, .nav-item:focus, .dropdown-toggle:focus{
+  background-color: var(--rda-widgetbackground);
   background-color: var(--rda-navbackground); 
 }
 
