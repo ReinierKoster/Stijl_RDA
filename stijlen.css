@@ -62,12 +62,12 @@ p, a{
 /* Widgets */
 body .ui-widget-content, body .ui-inputfield, body .ui-button, body .ui-selectonemenu, body .ui-selectonemenu-label,
 body .ui-icon, body .ui-icon-triangle-1-s, body .ui-selectonemenu-items, body .ui-selectonemenu-item.ui-state-highlight,
-button, input, optgroup, select, textarea, .btn-primary  {
+button, input, optgroup, select, textarea, .btn-primary, body .ui-selectonemenu-trigger  {
   border: 1px solid var(--rda-widgetsbackground);  
   background-color:var(--rda-widgetsbackground);
   color:white;
   border-radius:4px;
-  text-transform: capitalize
+  text-transform: capitalize;
 }
 
 body .ui-fileupload {
@@ -96,7 +96,8 @@ body .ui-selectonemenu-panel .ui-selectonemenu-items .ui-selectonemenu-item{
 
 
 /* Hover*/
-body.ui-state-hover, body .ui-button.ui-state-hover, body .ui-inputfield.ui-state-hover, body .ui-selectonemenu.ui-state-focus, body .btn-primary:hover{
+body.ui-state-hover, body .ui-button.ui-state-hover, body .ui-inputfield.ui-state-hover, body .ui-selectonemenu.ui-state-focus, body .btn-primary:hover,
+body .ui-corner-all:hover{
   background-color: var(--rda-navbackground);
   border-color: var(--rda-widgetsbackground);
   border-radius:4px;
@@ -114,8 +115,9 @@ li:hover a, .nav-link:hover, .nav-item:hover, .dropdown-toggle:hover{
 
 /* Focus*/
 
-body.ui-state-focus, body .ui-button.ui-state-focus, body .ui-inputfield.ui-state-focus, body .ui-selectonemenu.ui-state-focus, body .btn-primary:focus{
-  background-color: var(--rda-widgetbackground);
+body.ui-state-focus, body .ui-button.ui-state-focus, body .ui-inputfield.ui-state-focus, body .ui-selectonemenu.ui-state-focus, body .btn-primary:focus,
+body .ui-corner-all:focus{
+  background-color: var(--rda-widgetsbackground);
   border-color: var(--rda-navbackground);
   border-radius:4px;
   color:white;
