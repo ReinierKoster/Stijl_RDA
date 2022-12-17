@@ -139,14 +139,16 @@
   
   
   /* Hover*/
-  body.ui-state-hover, body .ui-button.ui-state-hover, body .ui-inputfield.ui-state-hover, body .ui-selectonemenu:hover, body .btn-primary:hover{
+  body.ui-state-hover, body .ui-button.ui-state-hover, body .ui-inputfield.ui-state-hover, body .ui-selectonemenu:hover, body .btn-primary:hover,
+  body .ui-corner-all:hover{
     background-color: var(--rda-navbackground);
     border-color: var(--rda-widgetsbackground);
     border-radius:4px;
     color:white;
   }
   
-  body.ui-state-focus, body .ui-button.ui-state-focus, body .ui-inputfield.ui-state-focus, body .ui-selectonemenu.ui-state-focus, body .btn-primary:focus{
+  body.ui-state-focus, body .ui-button.ui-state-focus, body .ui-inputfield.ui-state-focus, body .ui-selectonemenu.ui-state-focus, body .btn-primary:focus,
+  body .ui-corner-all:focus{
     background-color: var(--rda-widgetsbackground);
     border-color: var(--rda-navbackground);
     border-radius:4px;
