@@ -122,7 +122,7 @@ button, input, optgroup, select, textarea {
   background-color: var(--rda-widgetsbackground);
   color:white;
   border-radius:4px;
-  text-transform: capitalize;;
+  text-transform: capitalize;
 }
 
 .btn-primary {
@@ -139,7 +139,7 @@ body.ui-state-hover, body .ui-button.ui-state-hover, body .ui-inputfield.ui-stat
   background-color: var(--rda-navbackground);
   border-color: var(--rda-widgetsbackground);
   border-radius:4px;
-  color:white
+  color:white;
 }
 
 body.ui-state-focus, body .ui-button.ui-state-focus, body .ui-inputfield.ui-state-focus, body .ui-selectonemenu.ui-state-focus, body .btn-primary:focus{
