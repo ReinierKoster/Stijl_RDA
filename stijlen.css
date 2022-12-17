@@ -76,6 +76,10 @@ button, input, optgroup, select, textarea{
   padding: 0.5rem 1rem 0.5rem 1rem
 }
 
+body .ui-selectonemenu .ui-selectonemenu-trigger .ui-icon{
+  color:white;
+}
+
 
 body .ui-corner-all{
   border:0;
@@ -106,11 +110,18 @@ body .ui-selectonemenu-panel .ui-selectonemenu-filter-container{
 
 
 /* Hover*/
-body.ui-state-hover, body .ui-button.ui-state-hover, body .ui-inputfield.ui-state-hover, body .ui-selectonemenu.ui-state-hover, body .btn-primary:hover{
+body.ui-state-hover, body .ui-inputfield.ui-state-hover, body .ui-selectonemenu.ui-state-hover, body .btn-primary:hover{
   background-color: var(--rda-navbackground);
   border-color: var(--rda-widgetsbackground);
   color:white;
   box-shadow: 0 0 0 0.2em var(--rda-widgetsbackground);
+}
+
+body .ui-button.ui-state-hover{
+  background-color: var(--rda-navbackground);
+  border-color: var(--rda-widgetsbackground);
+  color:white;
+  box-shadow: 0;
 }
 
 li:hover a, .nav-link:hover, .nav-item:hover, .dropdown-toggle:hover{
