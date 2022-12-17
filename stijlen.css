@@ -154,15 +154,20 @@ tbody, td, tfoot, th, thead, tr {
     line-height:0;
 }
 
-
-
 .col-lg-5 {
   flex: 0 0 auto;
-  width: 41.66666667%;
+  width: 40%;
   color: var(--rda-widgetsbackground);
-  text-transform: uppercase;
+  text-transform: capitalize;
   font-weight: 600;
+  line-height: 1;
+  margin-left: 30px!important;
 }
+
+.col-7 {
+  font-weight: 400;
+}
+
 
 /* This is the upload form div*/
 .card {
