@@ -145,8 +145,7 @@ body .ui-corner-all:focus{
 }
 
 li:focus a, .nav-link:focus, .nav-item:focus, .dropdown-toggle:focus{
-  background-color: var(--rda-widgetbackground);
-  background-color: var(--rda-navbackground); 
+  color:white;
 }
 
 
