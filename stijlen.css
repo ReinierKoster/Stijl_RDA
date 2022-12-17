@@ -61,13 +61,15 @@ p, a{
 
 /* Widgets */
 body .ui-inputfield, body .ui-button, body .ui-selectonemenu, body .ui-selectonemenu-label,
-body .ui-icon, body .ui-icon-triangle-1-s, body .ui-selectonemenu-item.ui-state-highlight,
+body .ui-icon, body .ui-icon-triangle-1-s, body .ui-c, body .ui-selectonemenu-item.ui-state-highlight,
 button, input, optgroup, select, textarea, .btn-primary, body .ui-selectonemenu-trigger  {
   border: 1px solid var(--rda-widgetsbackground);  
   background-color:var(--rda-widgetsbackground);
   color:white;
   border-radius:4px;
   text-transform: capitalize;
+  border-color:var(--rda-widgetsbackground);
+  line-height:1;
 }
 
 body .ui-corner-all{
