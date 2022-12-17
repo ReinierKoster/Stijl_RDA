@@ -148,10 +148,16 @@ body .ui-datatable thead th {
   box-sizing: content-box;
 }
 
-tbody, td, tfoot, th, thead, tr {
-    border-width: 0;
-    border: none!important;
-    line-height:0;
+tbody, td, tfoot, thead, tr {
+  border: none!important;
+  background-color: var(--bs-body-bg);
+  line-height:0;
+}
+
+
+tbody:hover, td:hover, tfoot:hover, thead:hover, tr:hover{
+  background: var(--rda-widgetsbackground);
+  color:white;
 }
 
 .col-lg-5 {
@@ -167,6 +173,33 @@ tbody, td, tfoot, th, thead, tr {
 .col-7 {
   font-weight: 400;
 }
+
+
+body .ui-tabs.ui-tabs-top > .ui-tabs-nav{
+  background: var(--bs-body-bg);
+}
+
+body .ui-tabs.ui-tabs-top > .ui-tabs-nav li.ui-tabs-header.ui-state-active, 
+body .ui-tabs .ui-tabs-nav li.ui-tabs-header.ui-state-active a{
+  background: var(--bs-body-bg);
+  color: var(--rda-widgetsbackground);
+  border-color:var(--rda-widgetsbackground);
+}
+
+body .ui-tabs.ui-tabs-top > .ui-tabs-nav li.ui-tabs-header.ui-state-hover, 
+body .ui-tabs .ui-tabs-nav li.ui-tabs-header.ui-state-hover a{
+  background: var(--bs-body-bg);
+  color: var(--rda-widgetsbackground);
+}
+
+body .ui-tabs .ui-tabs-panels .ui-tabs-panel{
+  background: var(--bs-body-bg);
+}
+
+.ui-selectonemenu label.ui-selectonemenu-label{
+  background-color:var(--rda-widgetsbackground);
+}
+
 
 
 /* This is the upload form div*/
