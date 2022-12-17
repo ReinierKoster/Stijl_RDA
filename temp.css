@@ -1,0 +1,237 @@
+:root {
+    --primary-color: #969696;
+    --bs-body-bg: #EAEAEA;
+    --rda-navbackground: #969696;
+    --rda-widgetsbackground: #353F4E;
+  }
+  
+  /* Navigation bar */
+  .navbar {
+    background-color: var(--rda-navbackground)!important;
+  }
+  
+  .nav-link{
+    color: var(--rda-widgetsbackground);
+    font-size:1rem;
+    font-weight:800;
+    text-transform: uppercase;
+  }
+  
+  
+  /* Fonts and text etc. */
+  html {
+    text-align: left;
+  }
+  
+  h1{
+    font-size: 1.5rem;
+    border: 2px solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding-bottom: 5px;
+    margin-top: 25px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    color: var(--rda-widgetsbackground);  
+  }
+  
+  h2{
+    font-size: 1rem;
+    border: 2px solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding-bottom: 5px;
+    margin-top: 25px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    color: var(--rda-widgetsbackground);  
+  }
+  
+  p, a{
+    font-size: 1rem;
+    color: var(--rda-widgetsbackground);  
+    text-decoration:none;
+  }
+  
+  
+  
+  
+  /* Widgets */
+  body .ui-widget-content {
+    border: 1px solid var(--rda-widgetsbackground);
+    background-color:var(--rda-widgetsbackground);
+    color:white;
+    border-radius:4px;
+  }
+  
+  body .ui-inputfield {
+    border: 1px solid var(--rda-widgetsbackground);
+    background-color:var(--rda-widgetsbackground);
+    color:white;
+    border-radius:4px;
+  }
+  
+  body .ui-selectonemenu {
+    border: 1px solid var(--rda-widgetsbackground);  
+    background-color:var(--rda-widgetsbackground);
+    color:white;
+    border-radius:4px;
+  }
+  
+  body .ui-selectonemenu .ui-selectonemenu-trigger .ui-icon, 
+  body .ui-selectonemenu-panel .ui-selectonemenu-filter-container .ui-icon{
+    color:white;
+  }
+  
+  body .ui-button {
+    border: 1px solid var(--rda-widgetsbackground);
+    background-color: var(--rda-widgetsbackground);
+    color:white;
+    border-radius:4px;
+  }
+  
+  body .ui-icon, body .ui-icon-triangle-1-s {
+    border: 1px solid var(--rda-widgetsbackground);
+    background-color: var(--rda-widgetsbackground);
+    color:white;
+    border-radius:4px;
+  }
+  
+  body .ui-fileupload {
+    border: 1px solid var(--rda-widgetsbackground);
+    padding: 1rem;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    background-color: var(--rda-widgetsbackground);
+    border-color: var(--rda-widgetsbackground);
+  }
+  
+  body .ui-selectonemenu-panel .ui-selectonemenu-items .ui-selectonemenu-item.ui-state-highlight{
+      border: 1px solid var(--rda-widgetsbackground);
+      background-color:var(--rda-widgetsbackground);
+      color:white;
+      border-radius:4px;
+  }
+  
+  body .ui-selectonemenu-panel .ui-selectonemenu-items .ui-selectonemenu-item{
+    background-color: white;
+    color: var(--rda-widgetsbackground);
+    border: 1px solid rgba(0, 0, 0, 0.08);
+  }
+  
+  button, input, optgroup, select, textarea {
+    border: 1px solid var(--rda-widgetsbackground);
+    background-color: var(--rda-widgetsbackground);
+    color:white;
+    border-radius:4px;
+    text-transform: capitalize;
+  }
+  
+  .btn-primary {
+    border: 1px solid var(--rda-widgetsbackground);
+    background-color:var(--rda-widgetsbackground);
+    color:white;
+    border-radius:4px;
+  }
+  
+  
+  
+  /* Hover*/
+  body.ui-state-hover, body .ui-button.ui-state-hover, body .ui-inputfield.ui-state-hover, body .ui-selectonemenu:hover, body .btn-primary:hover{
+    background-color: var(--rda-navbackground);
+    border-color: var(--rda-widgetsbackground);
+    border-radius:4px;
+    color:white;
+  }
+  
+  body.ui-state-focus, body .ui-button.ui-state-focus, body .ui-inputfield.ui-state-focus, body .ui-selectonemenu.ui-state-focus, body .btn-primary:focus{
+    background-color: var(--rda-widgetbackground);
+    border-color: var(--rda-navbackground);
+    border-radius:4px;
+    color:white;
+    box-shadow: 0 0 0 0.2em var(--rda-navbackground);
+  }
+  
+  
+  li:hover a .nav-link:hover, .nav-item:focus, .dropdown-toggle:hover,.dropdown-toggle:focus{
+    color:white;
+    background-color: var(--rda-navbackground); 
+  }
+  
+  
+  
+  
+  /* Tables Results tab*/
+  .ui-datatable thead th .ui-column-title {
+    font-weight: 600;
+    vertical-align: middle;
+  }
+  
+  .ui-datatable thead th {
+    background: var(--bs-body-bg);
+    color: var(--rda-widgetsbackground);
+    padding: 1rem 1rem;
+    border: 1px white;
+    text-align: left;
+    text-transform: uppercase;
+    box-sizing: content-box;
+  }
+  
+  .col-lg-5 {
+    flex: 0 0 auto;
+    width: 41.66666667%;
+    color: var(--rda-widgetsbackground);
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+  
+  /* This is the upload form div*/
+  .card {
+    background-color: var(--bs-body-bg);
+    border: 0px;
+  }
+  
+  label {
+      display: inline-block;
+      color: var(--rda-widgetsbackground);
+      text-transform: capitalize;
+  }
+  
+  
+  
+  /* Uitlijning*/
+  
+  .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl{
+    padding-right: 0;
+    padding-left: 0;
+  }
+  
+  #content {
+    --bs-gutter-x: 1.5rem;
+    margin-left:calc(0.5 * var(--bs-gutter-x));
+    margin-right:calc(0.5 * var(--bs-gutter-x));
+  }
+  
+  #text {
+    --bs-gutter-x: 1.5rem;
+    margin-left:calc(0.5 * var(--bs-gutter-x));
+  }
+  
+  #loginfrm{
+    --bs-gutter-x: 1.5rem;
+    margin-right:calc(0.5 * var(--bs-gutter-x));
+  }
+  
+  
+  /* Uitlijning*/
+  .row>*, .row {
+    padding-right: 0;
+    padding-left: 0;
+    margin-top: 0.25rem!important;
+    margin-left:0;
+    margin-right:0;
+  }
+  
+  
