@@ -219,6 +219,11 @@ label {
   margin-left:calc(0.5 * var(--bs-gutter-x));
 }
 
+#loginfrm{
+  --bs-gutter-x: 1.5rem;
+  margin-right:calc(0.5 * var(--bs-gutter-x));
+}
+
 
 /* Uitlijning*/
 .row>*, .row {
