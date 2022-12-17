@@ -61,7 +61,7 @@ p, a{
 
 /* Widgets */
 body .ui-inputfield, body .ui-button, body .ui-selectonemenu, body .ui-selectonemenu-label,
-body .ui-icon, body .ui-icon-triangle-1-s, body .ui-c, body .ui-selectonemenu-item.ui-state-highlight,
+body .ui-icon, body .ui-icon-triangle-1-s, body .ui-c, 
 button, input, optgroup, select, textarea, .btn-primary, body .ui-selectonemenu-trigger  {
   border: 1px solid var(--rda-widgetsbackground);  
   background-color:var(--rda-widgetsbackground);
@@ -220,7 +220,7 @@ body .ui-tabs .ui-tabs-panels .ui-tabs-panel{
 /* This is the upload form div*/
 .card {
   background-color: var(--bs-body-bg);
-  border: 0px;
+  border: none;
 }
 
 label {
