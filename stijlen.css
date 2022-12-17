@@ -16,6 +16,7 @@
   font-size:1rem;
   font-weight:800;
   text-transform: uppercase;
+  transition: none;
 }
 
 
@@ -110,7 +111,8 @@ body .ui-selectonemenu-panel .ui-selectonemenu-filter-container{
 
 
 /* Hover*/
-body.ui-state-hover, body .ui-inputfield.ui-state-hover, body .ui-selectonemenu.ui-state-hover, body .btn-primary:hover{
+body.ui-state-hover, body .ui-inputfield.ui-state-hover, body .ui-selectonemenu.ui-state-hover, body .btn-primary:hover,
+body .ui-tabs.ui-tabs-top > .ui-tabs-nav li.ui-tabs-header.ui-state-active{
   background-color: var(--rda-navbackground);
   border-color: var(--rda-widgetsbackground);
   color:white;
