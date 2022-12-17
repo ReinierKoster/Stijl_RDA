@@ -72,9 +72,13 @@ button, input, optgroup, select, textarea, .btn-primary, body .ui-selectonemenu-
   line-height:1;
 }
 
+button, input, optgroup, select, textarea{
+  padding: 0.5rem 1rem 0.5rem 1rem
+}
+
+
 body .ui-corner-all{
   border:0;
-
 }
 
 body .ui-fileupload {
