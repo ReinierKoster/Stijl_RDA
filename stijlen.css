@@ -88,7 +88,7 @@ body .ui-selectonemenu-panel .ui-selectonemenu-items .ui-selectonemenu-item.ui-s
 }
 
 body .ui-selectonemenu-panel .ui-selectonemenu-items .ui-selectonemenu-item{
-  background-color: white;
+  background-color: var(--bs-body-bg);
   color: var(--rda-widgetsbackground);
   border: 1px solid rgba(0, 0, 0, 0.08);
 }
@@ -148,8 +148,15 @@ body .ui-datatable thead th {
   box-sizing: content-box;
 }
 
-tbody, td, tfoot, thead, tr {
+tbody, tfoot, thead, tr {
   border: none!important;
+  background-color: var(--bs-body-bg);
+  line-height:0;
+}
+
+td{
+  border: none!important;
+  color: var(--rda-widgetsbackground);
   background-color: var(--bs-body-bg);
   line-height:0;
 }
@@ -160,18 +167,20 @@ tbody:hover, td:hover, tfoot:hover, thead:hover, tr:hover{
   color:white;
 }
 
-.col-lg-5 {
-  flex: 0 0 auto;
-  width: 40%;
+.col-5 {
   color: var(--rda-widgetsbackground);
   text-transform: capitalize;
   font-weight: 600;
   line-height: 1;
-  margin-left: 30px!important;
+  padding-left: 30px!important;
 }
 
 .col-7 {
+  color: var(--rda-widgetsbackground);
+  text-transform: capitalize;
   font-weight: 400;
+  line-height: 1;
+  padding-left: 30px!important;
 }
 
 
