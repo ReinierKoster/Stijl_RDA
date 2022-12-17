@@ -33,6 +33,7 @@ h1{
   margin-top: 25px;
   text-transform: uppercase;
   margin-bottom: 15px;
+  color: var(--rda-widgetsbackground);  
 }
 
 h2{
@@ -45,10 +46,13 @@ h2{
   margin-top: 25px;
   text-transform: uppercase;
   margin-bottom: 15px;
+  color: var(--rda-widgetsbackground);  
 }
 
-p{
+p, a{
   font-size: 1rem;
+  color: var(--rda-widgetsbackground);  
+  text-decoration:none;
 }
 
 
@@ -150,14 +154,10 @@ body.ui-state-focus, body .ui-button.ui-state-focus, body .ui-inputfield.ui-stat
   box-shadow: 0 0 0 0.2em white;
 }
 
-li:hover a {
-  background-color: var(--rda-navbackground);
-  color:var(--rda-navbackground);
-}
 
-
-.nav-link:hover, .nav-item:focus, .dropdown-toggle:hover,.dropdown-toggle:focus{
+li:hover a .nav-link:hover, .nav-item:focus, .dropdown-toggle:hover,.dropdown-toggle:focus{
   color:white;
+  background-color: var(--rda-navbackground); 
 }
 
 
