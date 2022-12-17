@@ -151,7 +151,7 @@ body.ui-state-focus, body .ui-button.ui-state-focus, body .ui-inputfield.ui-stat
   border-color: var(--rda-navbackground);
   border-radius:4px;
   color:white;
-  box-shadow: 0 0 0 0.2em white;
+  box-shadow: 0 0 0 0.2em var(--rda-navbackground);
 }
 
 
