@@ -147,7 +147,7 @@
   }
   
   body.ui-state-focus, body .ui-button.ui-state-focus, body .ui-inputfield.ui-state-focus, body .ui-selectonemenu.ui-state-focus, body .btn-primary:focus{
-    background-color: var(--rda-widgetbackground);
+    background-color: var(--rda-widgetsbackground);
     border-color: var(--rda-navbackground);
     border-radius:4px;
     color:white;
