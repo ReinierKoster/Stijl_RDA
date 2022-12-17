@@ -61,7 +61,7 @@ p, a{
 
 /* Widgets */
 body .ui-inputfield, body .ui-button, body .ui-selectonemenu, body .ui-selectonemenu-label,
-body .ui-icon, body .ui-icon-triangle-1-s, body .ui-selectonemenu-items, body .ui-selectonemenu-item.ui-state-highlight,
+body .ui-icon, body .ui-icon-triangle-1-s, body .ui-selectonemenu-item.ui-state-highlight,
 button, input, optgroup, select, textarea, .btn-primary, body .ui-selectonemenu-trigger  {
   border: 1px solid var(--rda-widgetsbackground);  
   background-color:var(--rda-widgetsbackground);
@@ -85,23 +85,24 @@ body .ui-fileupload {
 }
 
 
-body .ui-selectonemenu-panel .ui-selectonemenu-items .ui-selectonemenu-item.ui-state-highlight{
+body .ui-selectonemenu-panel .ui-selectonemenu-items .ui-selectonemenu-item.ui-state-highlight,
+body .ui-selectonemenu-panel .ui-selectonemenu-items .ui-selectonemenu-item.ui-state-hover{
   border: 1px solid var(--rda-widgetsbackground);
   background-color:var(--rda-widgetsbackground);
   color:white;
   border-radius:4px;
 }
 
-body .ui-selectonemenu-panel .ui-selectonemenu-items .ui-selectonemenu-item{
+body .ui-selectonemenu-panel .ui-selectonemenu-items .ui-selectonemenu-item,
+body .ui-selectonemenu-panel .ui-selectonemenu-filter-container{
   background-color: var(--bs-body-bg);
   color: var(--rda-widgetsbackground);
-  border: 1px solid rgba(0, 0, 0, 0.08);
 }
 
 
 
 /* Hover*/
-body.ui-state-hover, body .ui-button.ui-state-hover, body .ui-inputfield.ui-state-hover, body .ui-selectonemenu.ui-state-focus, body .btn-primary:hover{
+body.ui-state-hover, body .ui-button.ui-state-hover, body .ui-inputfield.ui-state-hover, body .ui-selectonemenu.ui-state-hover, body .btn-primary:hover{
   background-color: var(--rda-navbackground);
   border-color: var(--rda-widgetsbackground);
   border-radius:4px;
