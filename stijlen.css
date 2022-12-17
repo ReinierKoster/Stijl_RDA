@@ -1,3 +1,4 @@
+
 :root {
   --primary-color: #969696;
   --bs-body-bg: #EAEAEA;
@@ -79,12 +80,18 @@ body .ui-fileupload {
 }
 
 
-body .ui-selectonemenu-panel, body .ui-selectonemenu-item{
+body .ui-selectonemenu-panel .ui-selectonemenu-items .ui-selectonemenu-item.ui-state-highlight{
+  border: 1px solid var(--rda-widgetsbackground);
+  background-color:var(--rda-widgetsbackground);
+  color:white;
+  border-radius:4px;
+}
+
+body .ui-selectonemenu-panel .ui-selectonemenu-items .ui-selectonemenu-item{
   background-color: white;
   color: var(--rda-widgetsbackground);
   border: 1px solid rgba(0, 0, 0, 0.08);
 }
-
 
 
 
@@ -193,4 +200,5 @@ label {
   margin-left:0;
   margin-right:0;
 }
+
 
