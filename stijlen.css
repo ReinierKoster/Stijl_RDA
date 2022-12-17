@@ -218,9 +218,11 @@ body .ui-tabs .ui-tabs-nav li.ui-tabs-header.ui-state-active a{
 
 body .ui-tabs.ui-tabs-top > .ui-tabs-nav li.ui-tabs-header.ui-state-hover, 
 body .ui-tabs .ui-tabs-nav li.ui-tabs-header.ui-state-hover a,
-body .ui-tabs.ui-tabs-top > .ui-tabs-nav li.ui-tabs-header{
+body .ui-tabs.ui-tabs-top > .ui-tabs-nav li.ui-tabs-header,
+body .ui-tabs-header ui-state-default ui-corner-top:active{
   background: var(--bs-body-bg);
   color: var(--rda-widgetsbackground);
+  box-shadow:none;
 }
 
 body .ui-tabs .ui-tabs-panels .ui-tabs-panel{
