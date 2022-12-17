@@ -133,13 +133,13 @@ li:focus a, .nav-link:focus, .nav-item:focus, .dropdown-toggle:focus{
 
 
 /* Tables Results tab*/
-.ui-datatable thead th .ui-column-title {
+body .ui-datatable thead th .ui-column-title {
   font-weight: 600;
   vertical-align: middle;
 }
 
-.ui-datatable thead th {
-  background: var(--bs-body-bg);
+body .ui-datatable thead th {
+  background-color: var(--bs-body-bg);
   color: var(--rda-widgetsbackground);
   padding: 1rem 1rem;
   border: 1px white;
@@ -147,6 +147,14 @@ li:focus a, .nav-link:focus, .nav-item:focus, .dropdown-toggle:focus{
   text-transform: uppercase;
   box-sizing: content-box;
 }
+
+tbody, td, tfoot, th, thead, tr {
+    border-width: 0;
+    border: none!important;
+    line-height:0;
+}
+
+
 
 .col-lg-5 {
   flex: 0 0 auto;
